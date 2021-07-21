@@ -20,5 +20,11 @@ fun main(args: Array<String>) {
     println("Int: $int")
     println("Long: $long")
 
-    //
+    // Converting to a different type
+    var double: Double = int.toDouble();
+
+    var doubleLong: Long = double.toLong()
+
+    println("Int converted to double: $double")
+    println("Double converted to Long: $doubleLong")
 }
