@@ -15,10 +15,22 @@ fun main(args: Array<String>) {
     // Long
     var long: Long = 1234L
 
+    // String
+    var string: String = "This is a string of characters"
+
+    // Character
+    var char: Char = 'C'
+
+    // Boolean
+    var bool = true
+
     println("Byte: $byte")
     println("Short: $short")
     println("Int: $int")
     println("Long: $long")
+    println("String: $string")
+    println("Char: $char")
+    println("Boolean: $bool")
 
     // Converting to a different type
     var double: Double = int.toDouble();
