@@ -11,5 +11,7 @@ fun main(args: Array<String>) {
     val rand2 = (Math.random() * arraySize2).toInt()
     val rand3 = (Math.random() * arraySize3).toInt()
 
+    val phrase = "${wordArray1[rand1]} ${wordArray2[rand2]} ${wordArray3[rand3]}"
 
+    println(phrase)
 }
