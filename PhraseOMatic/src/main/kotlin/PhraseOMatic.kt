@@ -7,5 +7,9 @@ fun main(args: Array<String>) {
     val arraySize2 = wordArray2.size
     val arraySize3 = wordArray3.size
 
+    val rand1 = (Math.random() * arraySize1).toInt()
+    val rand2 = (Math.random() * arraySize2).toInt()
+    val rand3 = (Math.random() * arraySize3).toInt()
+
 
 }
