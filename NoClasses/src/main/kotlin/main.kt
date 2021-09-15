@@ -5,7 +5,7 @@ Day: Tuesday Time: 10:34 pm
 // Kotlin from Pluralsight
 
 fun main(args: Array<String>) {
-    var q: Question = Question()
+    var q: Question? = Question()
     q = Question()
     q.Answer = "42"
 
@@ -18,10 +18,12 @@ fun main(args: Array<String>) {
     } else {
         println("Try again?")
     }
+
+    println(message)
 }
 
 class Question {
-    var Answer:String = ""
+    var Answer:String? = null
     var CorrectAnswer = "42"
     val Question: String = "What is the answer to life, the universe and everything?"
 
